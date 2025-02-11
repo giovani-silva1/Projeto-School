@@ -8,6 +8,7 @@ import { MyConquestsComponent } from './my-conquests/my-conquests.component';
 import { MyDisciplinesComponent } from './my-disciplines/my-disciplines.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatIconModule } from '@angular/material/icon';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,12 @@ import { MatIconModule } from '@angular/material/icon';
     MyConquestsComponent,
     MyDisciplinesComponent,
   ],
-  imports: [CommonModule, UsersRoutingModule, MatTabsModule, MatIconModule],
+  imports: [
+    CommonModule,
+    UsersRoutingModule,
+    MatTabsModule,
+    MatIconModule,
+    SharedModule,
+  ],
 })
 export class UsersModule {}
