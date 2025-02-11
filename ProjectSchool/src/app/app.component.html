@@ -5,10 +5,10 @@
     </mat-toolbar>
     <mat-nav-list>
       <a mat-list-item routerLink="/users">Usuarios</a>
-      <a mat-list-item routerLink="/dashboard">Dashboard</a>
-      <a mat-list-item routerLink="/teachers">Professores</a>
-      <a mat-list-item routerLink="/students">Estudantes</a>
-      <a mat-list-item routerLink="/suporte">Suporte</a>
+      <a *ngFor="let item of itens_menu" mat-list-item routerLink="{{item.link}}">{{item.label}}
+
+      </a>
+
 
     </mat-nav-list>
   </mat-sidenav>

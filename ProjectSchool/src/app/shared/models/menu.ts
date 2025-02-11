@@ -22,7 +22,7 @@ export const menuItems: MenuItem[] = [
     label: 'Alunos',
   },
   {
-    link: '/support',
+    link: '/suporte',
     icon: 'fa-headset',
     label: 'Suporte',
   },
