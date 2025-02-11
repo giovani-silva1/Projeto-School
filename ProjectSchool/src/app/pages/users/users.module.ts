@@ -9,6 +9,7 @@ import { MyDisciplinesComponent } from './my-disciplines/my-disciplines.componen
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatIconModule } from '@angular/material/icon';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
     MatTabsModule,
     MatIconModule,
     SharedModule,
+    MatButtonModule,
   ],
 })
 export class UsersModule {}
