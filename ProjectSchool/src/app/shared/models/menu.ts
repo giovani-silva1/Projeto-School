@@ -13,7 +13,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     link: '/teachers',
-    icon: 'fa-person-chaçlboard',
+    icon: 'fa-graduation-cap',
     label: 'Professores',
   },
   {

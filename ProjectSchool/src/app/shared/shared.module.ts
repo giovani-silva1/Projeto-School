@@ -4,10 +4,18 @@ import { ToolbarTitleComponent } from './componentes/toolbar-title/toolbar-title
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [ToolbarTitleComponent],
-  imports: [CommonModule, MatToolbarModule, MatIconModule, FlexLayoutModule],
+  imports: [
+    CommonModule,
+    MatToolbarModule,
+    MatIconModule,
+    FlexLayoutModule,
+    MatIconModule,
+    MatButtonModule,
+  ],
   exports: [ToolbarTitleComponent],
 })
 export class SharedModule {}
