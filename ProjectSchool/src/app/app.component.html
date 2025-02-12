@@ -18,8 +18,10 @@
 
   <mat-sidenav-content>
     <mat-toolbar class="toolbar-menu" color="primary" [class.mat-elevation-z4]="applyShadow">
-      <button mat-icon-button class="example-icon" (click)="sidenav.toggle()">
-        <mat-icon>menu</mat-icon>
+      <button matTooltip="{{sidenav.opened ? 'fechar menu': 'abrir menu'}}" matTooltipPosition="right" matTooltipClass="tooltip" mat-icon-button class="example-icon" (click)="sidenav.toggle()">
+        <mat-icon>
+          {{sidenav.opened ? 'close': 'menu'}}
+        </mat-icon>
       </button>
       <span *ngIf="popText">Projeto Escola</span>
       <span class="example-spacer"></span>

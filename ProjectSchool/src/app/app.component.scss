@@ -90,7 +90,12 @@ mat-sidenav-container {
       font-size: 0.9rem;
       text-align: center;
       color: #636363;
-      font-weight: 800 !important;
     }
+  }
+
+  .tooltip .mdc-tooltip__surface {
+    font-size: 14px !important;
+    color: red !important;
+    background-color: white !important;
   }
 }
